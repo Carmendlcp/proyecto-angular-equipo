@@ -4,21 +4,21 @@
       "id": "1",
       "name": "El Padrino",
       "description": "Un clásico del cine dirigido por Francis Ford Coppola.",
-      "image": "elpadrino.jpg",
+      "image": "https://cdn.sincroguia.tv/uploads/programs/e/l/-/el-padrino-poster-2981_SPA-17_V.jpg",
       "stars": 5
     },
     {
       "id": "2",
       "name": "Titanic",
       "description": "Una historia romántica y dramática dirigida por James Cameron.",
-      "image": "titanic.jpg",
+      "image": "https://s2.abcstatics.com/media/summum/2020/02/10/titanic-ktFH--1248x698@abc.jpg",
       "stars": 4
     },
     {
       "id": "3",
       "name": "Forrest Gump",
       "description": "La vida de un hombre con discapacidad intelectual que vive grandes momentos históricos.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "https://i.pinimg.com/736x/10/e0/a4/10e0a456c1a561c7203eff2c841b2549.jpg",
       "stars": "5"
     },
     {
@@ -67,7 +67,7 @@
       "id": "10",
       "name": "Casablanca",
       "description": "Un clásico del cine negro dirigido por Michael Curtiz.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "https://m.media-amazon.com/images/I/514uLlXSkeL._AC_UF894,1000_QL80_.jpg",
       "stars": 5
     },
     {
