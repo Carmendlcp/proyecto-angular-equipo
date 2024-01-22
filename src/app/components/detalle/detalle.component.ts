@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ApiInterface } from '../../interfaces/api-interface';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ApiService } from '../../services/api-service.service';
 import { FormsModule } from '@angular/forms';
@@ -12,8 +11,9 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './detalle.component.scss'
 })
 export class DetalleComponent {
+
   id!:number;
-  producto!:ApiInterface;
+  producto!:any;
   constructor (
     private servicio:ApiService,
     private rutaActivada:ActivatedRoute
@@ -21,7 +21,7 @@ export class DetalleComponent {
 
   ngOnInit():void {
     this.rutaActivada.paramMap.subscribe(params => {
-      this.id = Number(params.get("id"))
+      this.id = Number(params.get("id"));
     })
 
     this.servicio.getProductosById(this.id).subscribe((data:any) => {
@@ -30,14 +30,22 @@ export class DetalleComponent {
 
     })
   }
-  actualizarProducto(){
-    this.servicio.patchProductos(this.producto).subscribe();
-    alert("película actualizada")
+
+  actualizarProducto() {
+    this.servicio.patchProductos(this.producto).subscribe(() => {
+      alert("Película actualizada");
+    });
   }
 
-  deleteProducto(){
-    this.servicio.deleteProductos(this.producto).subscribe();
-    alert("película eliminada")
-  }
+  // actualizarProducto(){
+  //   this.servicio.patchProductos(this.producto.id).subscribe();
+  //   alert("película actualizada")
+  // }
 
-}
+  deleteProducto() {
+    this.servicio.deleteProductos(this.producto.id).subscribe(() => {
+      alert("Película eliminada");
+
+})
+    }
+    }

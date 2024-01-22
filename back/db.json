@@ -4,14 +4,14 @@
       "id": "1",
       "name": "El Padrino",
       "description": "Un clásico del cine dirigido por Francis Ford Coppola.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "elpadrino.jpg",
       "stars": 5
     },
     {
       "id": "2",
       "name": "Titanic",
       "description": "Una historia romántica y dramática dirigida por James Cameron.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "titanic.jpg",
       "stars": 4
     },
     {
@@ -19,7 +19,7 @@
       "name": "Forrest Gump",
       "description": "La vida de un hombre con discapacidad intelectual que vive grandes momentos históricos.",
       "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
-      "stars": 5
+      "stars": "5"
     },
     {
       "id": "4",
@@ -71,7 +71,7 @@
       "stars": 5
     },
     {
-      "id": 0,
+      "id": "0",
       "name": "La sociedad de la nieve",
       "description": "Película basada en hechos reales",
       "stars": "5",
