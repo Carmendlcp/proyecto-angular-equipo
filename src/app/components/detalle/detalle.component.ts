@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { ApiInterface } from '../../interfaces/api-interface';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ApiService } from '../../services/api-service.service';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-detalle',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, FormsModule],
   templateUrl: './detalle.component.html',
   styleUrl: './detalle.component.scss'
 })
@@ -29,4 +30,14 @@ export class DetalleComponent {
 
     })
   }
+  actualizarProducto(){
+    this.servicio.patchProductos(this.producto).subscribe();
+    alert("película actualizada")
+  }
+
+  deleteProducto(){
+    this.servicio.deleteProductos(this.producto).subscribe();
+    alert("película eliminada")
+  }
+
 }

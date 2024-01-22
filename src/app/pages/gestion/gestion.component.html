@@ -1,1 +1,15 @@
-<p>gestion works!</p>
+<input type="text" placeholder="name" [(ngModel)]="producto.name">
+<input type="text" placeholder="image" [(ngModel)]="producto.image">
+<input type="text" placeholder="description" [(ngModel)]="producto.description">
+<input type="text" placeholder="stars" [(ngModel)]="producto.stars">
+
+
+<button (click)="addProducto()" >Añadir nueva película</button>
+<h2> {{producto.name}} </h2>
+  <img src="{{producto.image}}" alt="{{producto.name}}">
+  <p> {{producto.description}} </p>
+  <p> {{producto.stars}} </p>
+
+
+
+

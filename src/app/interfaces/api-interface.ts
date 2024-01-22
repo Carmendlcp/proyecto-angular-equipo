@@ -4,10 +4,10 @@ export interface ApiInterface {
   name: string;
   description: string;
   stars: number;
-  image: image;
+  image: string;
   }
-export interface image {
-  url: string;
-  alt: string;
-}
+// export interface image {
+//   url: string;
+//   alt: string;
+// }
 

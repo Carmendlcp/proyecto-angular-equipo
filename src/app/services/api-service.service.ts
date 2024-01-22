@@ -22,4 +22,12 @@ export class ApiService {
   public postProductos(producto:any){
     return this.http.post(this.productosUrl, producto)
   }
+
+  public patchProductos(producto:any){
+    return this.http.patch(this.productosUrl, producto)
+  }
+
+  public deleteProductos(producto:any){
+    return this.http.delete(this.productosUrl, producto)
+  }
 }
