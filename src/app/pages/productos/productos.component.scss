@@ -1,0 +1,98 @@
+* {
+    margin: 20px;
+    font-family:'Courier New', Courier, monospace;
+};
+
+// body {
+//     background-image: url(https://images.vexels.com/content/257066/preview/film-icons-seamless-pattern-14b273.png)
+// }
+
+
+.filmContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 21px;
+}
+
+.filmContainer div {
+    background-color: rgb(238, 238, 238);
+    border-color: grey;
+    border: solid 1px;
+    box-shadow: 10px 10px 8px #888888;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 180px;
+    height: 450px;
+    transition: transform 0.3s ease;
+}
+
+.filmContainer div:hover {
+    transform: scale(1.1);
+}
+
+.filmContainer div h2 {
+    margin: 0;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight:bold;
+}
+
+.filmContainer div p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.filmContainer div h5 {
+    margin: 7px;
+}
+
+.filmContainer div button {
+    margin: 7px;
+}
+
+.filmContainer img {
+    height: 250px;
+    width: 160px;
+    object-fit: cover;
+    border-color: grey;
+    border: solid 1px;
+    margin-top: 2px;
+}
+
+// ESTRELLAS
+
+.filmContainer div .star-container {
+    display: flex;
+  }
+  
+  .filmContainer div .star {
+    width: 20px; 
+    height: 20px;
+    margin-right: 2px;
+    position: relative;
+  }
+  
+  .filmContainer div .star::before {
+    content: '\2605'; /* Código de estrella Unicode */
+    color: #ffd700; /* Color de estrellas amarillas */
+    font-size: 18px; /* Tamaño de la estrella */
+    border: 1px solid #ffd700; /* Borde de la estrella */
+    padding: 2px; /* Espacio interno en la estrella */
+    border-radius: 50%; /* Borde redondeado para que parezca más una estrella */
+  }
+  
+  .filmContainer div .star.full::before {
+    color: #ffd700; /* Color de estrella completa */
+    border-color: #ffd700; /* Borde de estrella completa */
+  }
+  
