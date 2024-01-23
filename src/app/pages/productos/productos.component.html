@@ -1,10 +1,20 @@
-@for (producto of productosList; track $index) {
+<body>
+<label for="titulo">Buscar por título:</label>
+<input type="text" placeholder="Título" [(ngModel)]="tituloABuscar"/>
+<div class="filmContainer" src="https://images.vexels.com/content/257066/preview/film-icons-seamless-pattern-14b273.png">
+@for (producto of productosList | filtroNombre:tituloABuscar; track $index) {
   <div>
     <h2> {{producto.name}} </h2>
     <img src="{{producto.image}}" alt="{{producto.name}}"/>
     <p> {{producto.description}} </p>
-    <h5> {{producto.stars}} </h5>
+    <!-- <h5> {{producto.stars}} </h5> -->
+    <h5>{{'⭐'.repeat(producto.stars)}}</h5>
+
+    <!-- CON EL NÚMERO -->
+    <!-- <h5>{{'⭐'.repeat(producto.stars - 1)}} {{producto.stars}}</h5> -->
 
     <button routerLink="/productos/{{producto.id}}" >Ver más</button>
   </div>
   }
+</div>
+</body>
