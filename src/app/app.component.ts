@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { NavComponent } from './core/nav/nav.component';
-import { PaginacionComponent } from './components/paginacion/paginacion.component';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',

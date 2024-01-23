@@ -28,10 +28,10 @@ export class ApiService {
   }
 
   public patchProductos(producto:any){
-    return this.http.patch(this.productosUrl, producto)
+    return this.http.patch(`${this.productosUrl}/${producto.id}`, producto);
   }
 
-  public deleteProductos(producto:any){
-    return this.http.delete(this.productosUrl, producto)
+  public deleteProductos(id: string){
+    return this.http.delete(`${this.productosUrl}/${id}`)
   }
 }

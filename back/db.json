@@ -4,78 +4,78 @@
       "id": "1",
       "name": "El Padrino",
       "description": "Un clásico del cine dirigido por Francis Ford Coppola.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "https://i.pinimg.com/736x/4c/9d/ed/4c9ded08474ec77ddf92622dead700a4.jpg",
       "stars": 5
     },
     {
       "id": "2",
       "name": "Titanic",
       "description": "Una historia romántica y dramática dirigida por James Cameron.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "https://images.ecestaticos.com/12XlMhwAHREXbjZRuXGbnM-OLH4=/1x6:395x584/1440x1920/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdcb%2F36a%2Fe27%2Fdcb36ae2752ae247006ca2ab35c99b43.jpg",
       "stars": 4
     },
     {
       "id": "3",
       "name": "Forrest Gump",
       "description": "La vida de un hombre con discapacidad intelectual que vive grandes momentos históricos.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "https://m.media-amazon.com/images/I/81537OgBznL._AC_UF894,1000_QL80_.jpg",
       "stars": 5
     },
     {
       "id": "4",
       "name": "Pulp Fiction",
       "description": "Un viaje no lineal a través del crimen y la cultura pop dirigido por Quentin Tarantino.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "https://lamadraza.ugr.es/wp-content/uploads/2013/04/ab061-pulp_fiction-740215304-large.jpg",
       "stars": 4
     },
     {
       "id": "5",
       "name": "Matrix",
       "description": "Una historia de ciencia ficción revolucionaria dirigida por los hermanos Wachowski.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "https://playmax.xyz/img/c/400/1/1653208790/194.jpg",
       "stars": 5
     },
     {
       "id": "6",
-      "name": "El Señor de los Anillos: La Comunidad del Anillo",
+      "name": "El Señor de los Anillos",
       "description": "La primera entrega de la épica trilogía dirigida por Peter Jackson.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "https://pics.filmaffinity.com/El_seanor_de_los_anillos_La_comunidad_del_anillo-744631610-large.jpg",
       "stars": 5
     },
     {
       "id": "7",
       "name": "El Rey León",
       "description": "Una emocionante película animada de Disney que ha cautivado a audiencias de todas las edades.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "https://blogpara25.files.wordpress.com/2021/03/3512617be12f9a804e546305927420bb.jpg",
       "stars": 4
     },
     {
       "id": "8",
       "name": "La La Land",
       "description": "Un musical romántico ambientado en Los Ángeles y dirigido por Damien Chazelle.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "https://pics.filmaffinity.com/la_la_land-262021831-mmed.jpg",
       "stars": 4
     },
     {
       "id": "9",
-      "name": "Inception",
-      "description": "Un thriller de ciencia ficción que explora los sueños y la realidad, dirigido por Christopher Nolan.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "name": "Origen",
+      "description": "Un thriller de ciencia ficción que explora los sueños y la realidad..",
+      "image": "https://es.web.img3.acsta.net/medias/nmedia/18/72/41/74/20198901.jpg",
       "stars": 5
     },
     {
       "id": "10",
       "name": "Casablanca",
       "description": "Un clásico del cine negro dirigido por Michael Curtiz.",
-      "image": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "image": "https://decine21.com/img/upload/obras/casablanca-6379/casablanca-6379-c.jpg",
       "stars": 5
     },
     {
-      "id": 0,
+      "id": "0",
       "name": "La sociedad de la nieve",
       "description": "Película basada en hechos reales",
       "stars": "5",
-      "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/12/14/17025724694009.jpg"
+      "image": "https://pics.filmaffinity.com/La_sociedad_de_la_nieve-323264210-large.jpg"
     }
   ]
 }

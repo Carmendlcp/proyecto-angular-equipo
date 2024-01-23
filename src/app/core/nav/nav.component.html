@@ -1,6 +1,8 @@
 
 <header>
-  <img src="logo.PNG" alt="Logo de la aplicación" class="logo">
+  <div>
+  <img src="https://img.freepik.com/vector-gratis/logotipo-produccion-cine-creativo_23-2149509983.jpg" alt="Logo de la aplicación" class="logo">
+</div>
 <nav>
 <ul>
   <li><a routerLink="/">Home</a></li>
@@ -8,4 +10,18 @@
   <li><a routerLink="/gestion" >Gestion</a></li>
 </ul>
 </nav>
+
+<!-- <label for="titulo">Buscar por título:</label>
+<input type="text" placeholder="name" [(ngModel)]="tituloABuscar" (input)="filtrarPeliculas()" />
+  @for (producto of productosList; track $index) {
+    <div>
+      <h2> {{producto.name}} </h2>
+      <img src="{{producto.image}}" alt="{{producto.name}}"/>
+      <p> {{producto.description}} </p>
+      <h5> {{producto.stars}} </h5>
+  
+      <button routerLink="/productos/{{producto.id}}" >Ver más</button>
+    </div>
+  } -->
+
 </header>
