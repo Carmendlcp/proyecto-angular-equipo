@@ -3,6 +3,10 @@
     {
       "id": "1",
       "name": "El Padrino",
+      "director": "Francis Ford Coppola",
+      "actors": "Marlon Brando, Al Pacino, Robert Duvall, James Caan, Richard Castellano",
+      "genero": "Drama | Mafia. Crimen. Años 40. Años 50. Familia. Película de culto",
+      "sinopsis": "América, años 40. Don Vito Corleone (Marlon Brando) es el respetado y temido jefe de una de las cinco familias de la mafia de Nueva York. Tiene cuatro hijos: Connie (Talia Shire), el impulsivo Sonny (James Caan), el pusilánime Fredo (John Cazale) y Michael (Al Pacino), que no quiere saber nada de los negocios de su padre. Cuando Corleone, en contra de los consejos de 'Il consigliere' Tom Hagen (Robert Duvall), se niega a participar en el negocio de las drogas, el jefe de otra banda ordena su asesinato. Empieza entonces una violenta y cruenta guerra entre las familias mafiosas.", 
       "description": "Un clásico del cine dirigido por Francis Ford Coppola.",
       "image": "https://i.pinimg.com/736x/4c/9d/ed/4c9ded08474ec77ddf92622dead700a4.jpg",
       "stars": 5
@@ -10,6 +14,10 @@
     {
       "id": "2",
       "name": "Titanic",
+      "director": "James Cameron",
+      "actors": "Leonardo DiCaprio, Kate Winslet, Billy Zane, Frances Fisher, Gloria Stuart, Bill Paxton",
+      "genero": "Romance. Drama. Aventuras | Drama romántico. Basado en hechos reales. 3-D. Catástrofes. Titanic. Cine épico",
+      "sinopsis": "Jack (DiCaprio), un joven artista, gana en una partida de cartas un pasaje para viajar a América en el Titanic, el transatlántico más grande y seguro jamás construido. A bordo conoce a Rose (Kate Winslet), una joven de una buena familia venida a menos que va a contraer un matrimonio de conveniencia con Cal (Billy Zane), un millonario engreído a quien sólo interesa el prestigioso apellido de su prometida. Jack y Rose se enamoran, pero el prometido y la madre de ella ponen todo tipo de trabas a su relación. Mientras, el gigantesco y lujoso transatlántico se aproxima hacia un inmenso iceberg.", 
       "description": "Una historia romántica y dramática dirigida por James Cameron.",
       "image": "https://images.ecestaticos.com/12XlMhwAHREXbjZRuXGbnM-OLH4=/1x6:395x584/1440x1920/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdcb%2F36a%2Fe27%2Fdcb36ae2752ae247006ca2ab35c99b43.jpg",
       "stars": 4
@@ -17,6 +25,10 @@
     {
       "id": "3",
       "name": "Forrest Gump",
+      "director": "Robert Zemeckis",
+      "actors": "Tom Hanks, Robin Wright, Gary Sinise, Mykelt Williamson, Sally Field",
+      "genero": "Comedia. Drama. Romance | Años 60. Años 70. Discapacidad. Comedia dramática. Película de culto. Guerra de Vietnam. Nochevieja / Año nuevo. Ping-pong",
+      "sinopsis": "Forrest Gump (Tom Hanks) sufre desde pequeño un cierto retraso mental. A pesar de todo, gracias a su tenacidad y a su buen corazón será protagonista de acontecimientos cruciales de su país durante varias décadas. Mientras pasan por su vida multitud de cosas en su mente siempre está presente la bella Jenny (Robin Wright), su gran amor desde la infancia, que junto a su madre será la persona más importante en su vida.", 
       "description": "La vida de un hombre con discapacidad intelectual que vive grandes momentos históricos.",
       "image": "https://m.media-amazon.com/images/I/81537OgBznL._AC_UF894,1000_QL80_.jpg",
       "stars": 5
@@ -24,6 +36,10 @@
     {
       "id": "4",
       "name": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "actors": "Jhon Travolta, Uma Thurman, Samuel L. Jakson, Bruce Willis, Harvey Keitel",
+      "genero": "Thriller | Crimen. Historias cruzadas. Película de culto. Comedia negra",
+      "sinopsis": "Jules y Vincent, dos asesinos a sueldo con no demasiadas luces, trabajan para el gángster Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su atractiva mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín.", 
       "description": "Un viaje no lineal a través del crimen y la cultura pop dirigido por Quentin Tarantino.",
       "image": "https://lamadraza.ugr.es/wp-content/uploads/2013/04/ab061-pulp_fiction-740215304-large.jpg",
       "stars": 4
@@ -31,6 +47,10 @@
     {
       "id": "5",
       "name": "Matrix",
+      "director": "Hermanas Wachowski",
+      "actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, Joe Pantoliano",
+      "genero": "Thriller | Crimen. Historias cruzadas. Película de culto. Comedia negra",
+      "sinopsis": "La película plantea que en el futuro, tras una dura guerra, casi todos los seres humanos han sido esclavizados por las máquinas y las inteligencias artificiales creadas. Estas los tienen en suspensión y con sus mentes conectadas a una realidad virtual llamada Matrix que representa el final del siglo xx. Los seres humanos son usados por las máquinas para obtener energía y los pocos que no están suspendidos, o que han sido liberados, viven en la ciudad Zion y tienen naves que se mueven por el subsuelo, entrando de forma clandestina a la Matrix para liberar otros conectados.", 
       "description": "Una historia de ciencia ficción revolucionaria dirigida por los hermanos Wachowski.",
       "image": "https://playmax.xyz/img/c/400/1/1653208790/194.jpg",
       "stars": 5
