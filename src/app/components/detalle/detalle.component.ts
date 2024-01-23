@@ -25,7 +25,7 @@ export class DetalleComponent {
     })
 
     this.servicio.getProductosById(this.id).subscribe((data:any) => {
-      console.log(data);
+      //console.log(data);
       this.producto = data
 
     })
