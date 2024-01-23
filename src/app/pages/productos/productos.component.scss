@@ -3,6 +3,28 @@
     font-family:'Courier New', Courier, monospace;
 };
 
+.input_container {
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input_container label {
+    margin: 0;
+}
+
+.input_container input {
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.input_container button {
+    margin: 0px;
+    margin-left: 10px;
+
+}
+
 // body {
 //     background-image: url(https://images.vexels.com/content/257066/preview/film-icons-seamless-pattern-14b273.png)
 // }
