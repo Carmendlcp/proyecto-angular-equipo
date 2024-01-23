@@ -15,7 +15,7 @@ export class ApiService {
     return this.http.get(this.productosUrl);
   }
 
-  public getProductosById(id:number){
+  public getProductosById(id:string){
     return this.http.get(`${this.productosUrl}/${id}`);
   }
 

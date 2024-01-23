@@ -15,6 +15,20 @@ import { FiltroNombrePipe } from '../../pipe/filtro-nombre.pipe';
 
 export class ProductosComponent {
 
+  constructor (private servicio:ApiService) {}
+public producto: any = {
+  name: "",
+  description: "",
+  stars: "",
+  image: "",
+};
+
+addProducto(){
+this.servicio.postProductos(this.producto).subscribe();
+alert("película creada")
+}
+
+
   public productosList: ApiInterface[] = [];
 
   public page: number = 1; //Número de página en la que estamos. Será 1 la primera vez que se carga el componente
@@ -25,8 +39,6 @@ export class ProductosComponent {
 
   private numResults: number = 11;
 
-
-  constructor(private servicio:ApiService) {}
 
 ngOnInit():void{
   this.servicio.getProductos().subscribe((data:any)=>{

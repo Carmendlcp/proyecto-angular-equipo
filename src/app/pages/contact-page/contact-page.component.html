@@ -2,13 +2,13 @@
     <fieldset>
       <h3><legend>INFORMACIÓN</legend></h3>
       <label class="block">
-        Nombre
-        <input type="text" formControlName="name" />
+
+        <input type="text" formControlName="name" placeholder="Nombre"/>
       </label>
-      @if(contactForm.get("name") && contactForm.get("name")?.errors){
+      @if(contactForm.get("name")?.valid && contactForm.get("name")?.errors){
         <span>Tienes un error</span>
       }
-  
+
       <label class="block">
         Email
         <input type="email" formControlName="email" />
@@ -21,8 +21,8 @@
         Age
         <input type="number" formControlName="age" />
       </label>
-  
-  
+
+
       <label class="block">
         Generos
         <select formControlName="generos" multiple>
@@ -32,8 +32,8 @@
           <option value="comedia">Comedia</option>
         </select>
       </label>
-  
+
     </fieldset>
-  
+
     <button class="bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base">Enviar</button>
   </form>

@@ -1,9 +1,9 @@
 export interface ApiInterface {
 
-  id: number;
+  id: string;
   name: string;
   description: string;
-  stars: number;
+  stars: string;
   image: string;
   }
 // export interface image {
