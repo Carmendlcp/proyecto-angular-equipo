@@ -12,8 +12,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class DetalleComponent {
 
-  id!:number;
+  id!:any;
   producto!:any;
+
   constructor (
     private servicio:ApiService,
     private rutaActivada:ActivatedRoute
@@ -21,12 +22,17 @@ export class DetalleComponent {
 
   ngOnInit():void {
     this.rutaActivada.paramMap.subscribe(params => {
-      this.id = Number(params.get("id"));
+      console.log(params);
+
+      this.id  = params.get("id");
     })
 
     this.servicio.getProductosById(this.id).subscribe((data:any) => {
       //console.log(data);
       this.producto = data
+      // static function generarIDUnico():{}
+      // this.contadorID += 1
+      // return this.contadorID
 
     })
   }

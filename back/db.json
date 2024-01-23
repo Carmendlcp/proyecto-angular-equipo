@@ -71,11 +71,53 @@
       "stars": 5
     },
     {
-      "id": "0",
+      "id": "11",
       "name": "La sociedad de la nieve",
       "description": "Película basada en hechos reales",
       "stars": "5",
       "image": "https://pics.filmaffinity.com/La_sociedad_de_la_nieve-323264210-large.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Rebel Moon",
+      "description": "Cuando una colonia en los confines de la galaxia se ve amenazada.",
+      "stars": "3",
+      "image": "https://m.media-amazon.com/images/I/91L4ztloxJL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "13",
+      "name": "E.T.",
+      "description": "Un pequeño marciano de otro planeta queda abandonado en la Tierra cuando su nave se olvida de él.",
+      "stars": "5",
+      "image": "https://m.media-amazon.com/images/I/814-9+LgNTL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Terminator",
+      "description": "En el año 2029 las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor.",
+      "stars": "4",
+      "image": "https://m.media-amazon.com/images/I/9169qb1HV1L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Water world",
+      "description": "En el futuro, los casquetes polares se han derretido y toda la Tierra está cubierta de agua salada.",
+      "stars": "3",
+      "image": "https://es.web.img3.acsta.net/medias/nmedia/18/76/85/32/20151582.jpg"
+    },
+    {
+      "id": "",
+      "name": "Mistic River",
+      "description": "Asesinato misterioso",
+      "stars": "5",
+      "image": "https://cdn.kobo.com/book-images/15bd2233-8b49-4de8-b6f9-615a3acd7aef/1200/1200/False/mystic-river-17.jpg"
+    },
+    {
+      "id": "3a22",
+      "name": "Capitán Fantastic",
+      "description": "Una familia viviendo en el bosque",
+      "stars": "5",
+      "image": "https://m.media-amazon.com/images/S/pv-target-images/0dca6d53dd6ac9f20dcd73e471b33e3d03e7391330fc7707a36ce01dc3e68e9b.jpg"
     }
   ]
 }

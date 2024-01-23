@@ -1,6 +1,24 @@
+
+
+
+
 <body>
 <label for="titulo">Buscar por título:</label>
 <input type="text" placeholder="Título" [(ngModel)]="tituloABuscar"/>
+
+<div>
+<input type="text" placeholder="name" [(ngModel)]="producto.name">
+<input type="text" placeholder="image" [(ngModel)]="producto.image">
+<input type="text" placeholder="description" [(ngModel)]="producto.description">
+<input type="text" placeholder="stars" [(ngModel)]="producto.stars">
+<button (click)="addProducto()" >Añadir nueva película</button>
+</div>
+
+<h2> {{producto.name}} </h2>
+  <img src="{{producto.image}}" alt="{{producto.name}}">
+  <p> {{producto.description}} </p>
+  <p> {{producto.stars}} </p>
+
 <div class="filmContainer" src="https://images.vexels.com/content/257066/preview/film-icons-seamless-pattern-14b273.png">
 @for (producto of productosList | filtroNombre:tituloABuscar; track $index) {
   <div>
