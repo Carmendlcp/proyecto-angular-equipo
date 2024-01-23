@@ -1,10 +1,11 @@
 @for (producto of productosList; track $index) {
-  <div>
-    <h2> {{producto.name}} </h2>
-    <img src="{{producto.image}}" alt="{{producto.name}}"/>
-    <p> {{producto.description}} </p>
-    <h5> {{producto.stars}} </h5>
+<div>
+  <h2>{{ producto.name }}</h2>
+  <img src="{{ producto.image }}" alt="{{ producto.name }}" />
+  <p>{{ producto.description }}</p>
+  <h5>{{ producto.stars }}</h5>
 
-    <button routerLink="/productos/{{producto.id}}" >Ver más</button>
-  </div>
-  }
+  <button routerLink="/productos/{{ producto.id }}">Ver más</button>
+</div>
+}
+

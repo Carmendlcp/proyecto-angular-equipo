@@ -19,6 +19,10 @@ export class ApiService {
     return this.http.get(`${this.productosUrl}/${id}`);
   }
 
+  public getProductosByPage(page:number){
+    return this.http.get(`${this.productosUrl}/${page}`);
+  }
+
   public postProductos(producto:any){
     return this.http.post(this.productosUrl, producto)
   }
