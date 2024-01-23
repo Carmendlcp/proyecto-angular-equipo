@@ -1,0 +1,39 @@
+<form (ngSubmit)="onSubmit()"[formGroup]="contactForm">
+    <fieldset>
+      <h3><legend>INFORMACIÓN</legend></h3>
+      <label class="block">
+        Nombre
+        <input type="text" formControlName="name" />
+      </label>
+      @if(contactForm.get("name") && contactForm.get("name")?.errors){
+        <span>Tienes un error</span>
+      }
+  
+      <label class="block">
+        Email
+        <input type="email" formControlName="email" />
+      </label>
+      @if(contactForm.get("email") && contactForm.get("email")?.errors){
+        <span>Tienes un error</span>
+      }
+
+      <label class="block">
+        Age
+        <input type="number" formControlName="age" />
+      </label>
+  
+  
+      <label class="block">
+        Generos
+        <select formControlName="generos" multiple>
+          <option value="romanticas">Romanticas</option>
+          <option value="Terror">Terror</option>
+          <option value="suspense">Suspense</option>
+          <option value="comedia">Comedia</option>
+        </select>
+      </label>
+  
+    </fieldset>
+  
+    <button class="bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base">Enviar</button>
+  </form>
