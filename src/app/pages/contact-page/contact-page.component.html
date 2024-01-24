@@ -1,39 +1,52 @@
 <form (ngSubmit)="onSubmit()"[formGroup]="contactForm">
     <fieldset>
       <h3><legend>INFORMACIÓN</legend></h3>
+      <p>
       <label class="block">
 
         <input type="text" formControlName="name" placeholder="Nombre"/>
       </label>
-      @if(contactForm.get("name")?.valid && contactForm.get("name")?.errors){
-        <span>Tienes un error</span>
-      }
-
+      <app-form-errors [errors]="isSubmitted && contactForm.get('name')?.errors"></app-form-errors>
+      
+    </p>
+    <p>
       <label class="block">
-        Email
-        <input type="email" formControlName="email" />
+        <input type="mail" formControlName="mail" placeholder="Email"/>
       </label>
-      @if(contactForm.get("email") && contactForm.get("email")?.errors){
-        <span>Tienes un error</span>
-      }
-
+      <app-form-errors [errors]="isSubmitted && contactForm.get('mail')?.errors"></app-form-errors>
+    </p>
+    <p>
       <label class="block">
-        Age
-        <input type="number" formControlName="age" />
+        <input type="password" formControlName="password" placeholder="Contraseña"/>
       </label>
-
-
+      <app-form-errors [errors]="isSubmitted && contactForm.get('password')?.errors"></app-form-errors>
+    </p>
+    <p>
       <label class="block">
-        Generos
-        <select formControlName="generos" multiple>
-          <option value="romanticas">Romanticas</option>
-          <option value="Terror">Terror</option>
+        <input type="passwordRepeat" formControlName="passwordRepeat" placeholder="Repite la contraseña"/>
+      </label>
+      <app-form-errors [errors]="isSubmitted && contactForm.get('passwordRepeat')?.errors"></app-form-errors>
+    </p>
+      <p>
+    </p>
+    <p><app-calendario></app-calendario></p>
+   <p>
+      <label>
+        <mat-form-field>
+          <mat-label> Generos</mat-label>
+          <select matNativeControl required>
+            <option value="romanticas">Romanticas</option>
+          <option value="terror">Terror</option>
+          <option value="terror">Terror</option>
           <option value="suspense">Suspense</option>
           <option value="comedia">Comedia</option>
-        </select>
+          </select>
+        </mat-form-field>
+        
       </label>
+      <app-form-errors [errors]="isSubmitted && contactForm.get('gender')?.errors"></app-form-errors>
+    </p>
 
-    </fieldset>
 
     <button class="bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base">Enviar</button>
-  </form>
+</fieldset>
