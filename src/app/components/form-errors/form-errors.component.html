@@ -1,0 +1,9 @@
+@if (errors) {
+    @if (errors.requiered) {
+        <span>El campo es requerido</span>
+    }@else if (errors.minlength) {
+        <span>Este campo debe tener al menos {{errors.minlength.requiereLength}} caracteres.</span>
+    }@else if (errors.passwordMismatch) {
+        <span>Las contraseñas no coinciden.</span>
+    }
+    }
