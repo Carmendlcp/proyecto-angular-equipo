@@ -3,6 +3,10 @@
     {
       "id": "1",
       "name": "El Padrino",
+      "director": "Francis Ford Coppola",
+      "actors": "Marlon Brando, Al Pacino, Robert Duvall, James Caan, Richard Castellano",
+      "genero": "Drama | Mafia. Crimen. Años 40. Años 50. Familia. Película de culto",
+      "sinopsis": "América, años 40. Don Vito Corleone (Marlon Brando) es el respetado y temido jefe de una de las cinco familias de la mafia de Nueva York. Tiene cuatro hijos: Connie (Talia Shire), el impulsivo Sonny (James Caan), el pusilánime Fredo (John Cazale) y Michael (Al Pacino), que no quiere saber nada de los negocios de su padre. Cuando Corleone, en contra de los consejos de 'Il consigliere' Tom Hagen (Robert Duvall), se niega a participar en el negocio de las drogas, el jefe de otra banda ordena su asesinato. Empieza entonces una violenta y cruenta guerra entre las familias mafiosas.", 
       "description": "Un clásico del cine dirigido por Francis Ford Coppola.",
       "image": "https://i.pinimg.com/736x/4c/9d/ed/4c9ded08474ec77ddf92622dead700a4.jpg",
       "stars": 5
@@ -10,6 +14,10 @@
     {
       "id": "2",
       "name": "Titanic",
+      "director": "James Cameron",
+      "actors": "Leonardo DiCaprio, Kate Winslet, Billy Zane, Frances Fisher, Gloria Stuart, Bill Paxton",
+      "genero": "Romance. Drama. Aventuras | Drama romántico. Basado en hechos reales. 3-D. Catástrofes. Titanic. Cine épico",
+      "sinopsis": "Jack (DiCaprio), un joven artista, gana en una partida de cartas un pasaje para viajar a América en el Titanic, el transatlántico más grande y seguro jamás construido. A bordo conoce a Rose (Kate Winslet), una joven de una buena familia venida a menos que va a contraer un matrimonio de conveniencia con Cal (Billy Zane), un millonario engreído a quien sólo interesa el prestigioso apellido de su prometida. Jack y Rose se enamoran, pero el prometido y la madre de ella ponen todo tipo de trabas a su relación. Mientras, el gigantesco y lujoso transatlántico se aproxima hacia un inmenso iceberg.", 
       "description": "Una historia romántica y dramática dirigida por James Cameron.",
       "image": "https://images.ecestaticos.com/12XlMhwAHREXbjZRuXGbnM-OLH4=/1x6:395x584/1440x1920/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdcb%2F36a%2Fe27%2Fdcb36ae2752ae247006ca2ab35c99b43.jpg",
       "stars": 4
@@ -17,6 +25,10 @@
     {
       "id": "3",
       "name": "Forrest Gump",
+      "director": "Robert Zemeckis",
+      "actors": "Tom Hanks, Robin Wright, Gary Sinise, Mykelt Williamson, Sally Field",
+      "genero": "Comedia. Drama. Romance | Años 60. Años 70. Discapacidad. Comedia dramática. Película de culto. Guerra de Vietnam. Nochevieja / Año nuevo. Ping-pong",
+      "sinopsis": "Forrest Gump (Tom Hanks) sufre desde pequeño un cierto retraso mental. A pesar de todo, gracias a su tenacidad y a su buen corazón será protagonista de acontecimientos cruciales de su país durante varias décadas. Mientras pasan por su vida multitud de cosas en su mente siempre está presente la bella Jenny (Robin Wright), su gran amor desde la infancia, que junto a su madre será la persona más importante en su vida.", 
       "description": "La vida de un hombre con discapacidad intelectual que vive grandes momentos históricos.",
       "image": "https://m.media-amazon.com/images/I/81537OgBznL._AC_UF894,1000_QL80_.jpg",
       "stars": 5
@@ -24,13 +36,24 @@
     {
       "id": "4",
       "name": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "actors": "Jhon Travolta, Uma Thurman, Samuel L. Jakson, Bruce Willis, Harvey Keitel",
+      "genero": "Thriller | Crimen. Historias cruzadas. Película de culto. Comedia negra",
+      "sinopsis": "Jules y Vincent, dos asesinos a sueldo con no demasiadas luces, trabajan para el gángster Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su atractiva mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín.", 
       "description": "Un viaje no lineal a través del crimen y la cultura pop dirigido por Quentin Tarantino.",
       "image": "https://lamadraza.ugr.es/wp-content/uploads/2013/04/ab061-pulp_fiction-740215304-large.jpg",
-      "stars": 4
+      "stars": 4,
+      "director": "",
+      "actores": "",
+      "sinopsis": ""
     },
     {
       "id": "5",
       "name": "Matrix",
+      "director": "Hermanas Wachowski",
+      "actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, Joe Pantoliano",
+      "genero": "Thriller | Crimen. Historias cruzadas. Película de culto. Comedia negra",
+      "sinopsis": "La película plantea que en el futuro, tras una dura guerra, casi todos los seres humanos han sido esclavizados por las máquinas y las inteligencias artificiales creadas. Estas los tienen en suspensión y con sus mentes conectadas a una realidad virtual llamada Matrix que representa el final del siglo xx. Los seres humanos son usados por las máquinas para obtener energía y los pocos que no están suspendidos, o que han sido liberados, viven en la ciudad Zion y tienen naves que se mueven por el subsuelo, entrando de forma clandestina a la Matrix para liberar otros conectados.", 
       "description": "Una historia de ciencia ficción revolucionaria dirigida por los hermanos Wachowski.",
       "image": "https://playmax.xyz/img/c/400/1/1653208790/194.jpg",
       "stars": 5
@@ -38,84 +61,144 @@
     {
       "id": "6",
       "name": "El Señor de los Anillos",
+      "director": "Peter Jackson",
+      "actores": "Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Billy Boyd, Dominic Monaghan, Orlando Bloom, Christopher Lee",
+      "genero": "Fantástico. Aventuras. Acción",
       "description": "La primera entrega de la épica trilogía dirigida por Peter Jackson.",
+      "sipnosis": "En la Tierra Media, el Señor Oscuro Sauron ordenó a los Elfos que forjaran los Grandes Anillos de Poder. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Pero Saurón también forjó, en secreto, el Anillo Único, que tiene el poder de esclavizar toda la Tierra Media. Con la ayuda de sus amigos y de valientes aliados, el joven hobbit Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el malvado Sauron ordena la persecución del grupo, compuesto por Frodo y sus leales amigos hobbits, un mago, un hombre, un elfo y un enano. La misión es casi suicida pero necesaria, pues si Sauron con su ejército de orcos lograra recuperar el Anillo, sería el final de la Tierra Media.",
+      "nacionalidad": "Nueva Zelanda",
       "image": "https://pics.filmaffinity.com/El_seanor_de_los_anillos_La_comunidad_del_anillo-744631610-large.jpg",
       "stars": 5
     },
     {
       "id": "7",
       "name": "El Rey León",
+      "director": "Rob Minkoff, Roger Allers",
+      "actores": "Matthew Broderick, James Earl Jones, Jeremy Irons, Jonathan Taylor Thomas, Moira Kelly, Nathan Lane, Ernie Sabella",
+      "genero": "Animación. Drama. Aventuras. Comedia. Musical. Infantil ",
       "description": "Una emocionante película animada de Disney que ha cautivado a audiencias de todas las edades.",
+      "sipnosis": "La sabana africana es el escenario en el que tienen lugar las aventuras de Simba, un pequeño león que es el heredero del trono. Sin embargo, al ser injustamente acusado por el malvado Scar de la muerte de su padre, se ve obligado a exiliarse. Durante su destierro, hará buenas amistades e intentará regresar para recuperar lo que legítimamente le corresponde.",
+      "nacionalidad": "Estados Unidos",
       "image": "https://blogpara25.files.wordpress.com/2021/03/3512617be12f9a804e546305927420bb.jpg",
       "stars": 4
     },
     {
       "id": "8",
       "name": "La La Land",
+      "director": "Damien Chazelle",
+      "actores": "Ryan Gosling, Emma Stone, Terry Walters, J.K. Simmons",
+      "genero": "Musical. Romance. Comedia. Drama ",
       "description": "Un musical romántico ambientado en Los Ángeles y dirigido por Damien Chazelle.",
+      "sipnosis": "Mia (Emma Stone), una joven aspirante a actriz que trabaja como camarera mientras acude a castings, y Sebastian (Ryan Gosling), un pianista de jazz que se gana la vida tocando en sórdidos tugurios, se enamoran, pero su gran ambición por llegar a la cima en sus carreras artísticas amenaza con separarlos.",
+      "nacionalidad": "Estados Unidos",
       "image": "https://pics.filmaffinity.com/la_la_land-262021831-mmed.jpg",
       "stars": 4
     },
     {
       "id": "9",
       "name": "Origen",
+      "director": "Christopher Nolan",
+      "actores": "Leonardo DiCaprio, Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Elliot Pagenota, Tom Hardy, Cillian Murphy, Tom Berenger, Michael Caine",
+      "genero": "Ciencia ficción. Thriller. Intriga. Acción",
       "description": "Un thriller de ciencia ficción que explora los sueños y la realidad..",
+      "sipnosis": "Dom Cobb (DiCaprio) es un experto en el arte de apropiarse, durante el sueño, de los secretos del subconsciente ajeno. La extraña habilidad de Cobb le ha convertido en un hombre muy cotizado en el mundo del espionaje, pero también lo ha condenado a ser un fugitivo y, por consiguiente, a renunciar a llevar una vida normal. Su única oportunidad para cambiar de vida será hacer exactamente lo contrario de lo que ha hecho siempre: la incepción, que consiste en implantar una idea en el subconsciente en lugar de sustraerla. Sin embargo, su plan se complica debido a la intervención de alguien que parece predecir cada uno de sus movimientos, alguien a quien sólo Cobb podrá descubrir.",
+      "nacionalidad": "Estados Unidos",
       "image": "https://es.web.img3.acsta.net/medias/nmedia/18/72/41/74/20198901.jpg",
       "stars": 5
     },
     {
       "id": "10",
       "name": "Casablanca",
+      "director": "Michael Curtiz",
+      "actores": "Humphrey Bogart, Ingrid Bergman, Paul Henreid, Claude Rains, Conrad Veidt, Sydney Greenstreet, Peter Lorre, S. K. Sakall, Madeleine LeBeau, Dooley Wilson, Joy Page, John Qualen, Leonid Kinskey, Curt Bois",
+      "genero": "Drama. Romance",
       "description": "Un clásico del cine negro dirigido por Michael Curtiz.",
+      "sipnosis": "Años 40. A consecuencia de la Segunda Guerra Mundial, Casablanca era una ciudad a la que llegaban huyendo del nazismo gente de todas partes: llegar era fácil, pero salir era casi imposible, especialmente si el nombre del fugitivo figuraba en las listas de la Gestapo, que presionaba a la autoridades francesas al mando del corrupto inspector Renault. En este caso, el objetivo de la policía secreta alemana es el líder checo y héroe de la resistencia Victor Laszlo, cuya única esperanza es Rick Blaine, propietario del 'Rick’s Café' y antiguo amante de su mujer, Ilsa Lund. Rick e Ilsa se habían conocido en París, pero la entrada de las tropas alemanas en la capital francesa les separó.",
+      "nacionalidad": "Estados Unidos",
       "image": "https://decine21.com/img/upload/obras/casablanca-6379/casablanca-6379-c.jpg",
       "stars": 5
     },
     {
       "id": "11",
       "name": "La sociedad de la nieve",
+      "director": "J.A. Bayona",
+      "actores": "Enzo Vogrincic, Matías Recalt, Agustín Pardella, Felipe González Otaño, Luciano Chatton, Valentino Alonso, Francisco Romero, Agustín Berruti, Andy Pruss, Manuela Olivera, Simón Hempe, Juan Caruso",
+      "genero": "Drama. Aventuras ",
       "description": "Película basada en hechos reales",
+      "sipnosis": "En 1972, el vuelo 571 de la Fuerza Aérea Uruguaya, fletado para llevar a un equipo de rugby a Chile, se estrella en un glaciar en el corazón de los Andes. Solo 29 de sus 45 pasajeros sobreviven al accidente. Atrapados en uno de los entornos más inaccesibles y hostiles del planeta, se ven obligados a recurrir a medidas extremas para mantenerse con vida. ",
+      "nacionalidad": "España",
       "stars": "5",
       "image": "https://pics.filmaffinity.com/La_sociedad_de_la_nieve-323264210-large.jpg"
     },
     {
       "id": "12",
       "name": "Rebel Moon",
+      "director": "Zack Snyder",
+      "actores": "Sofia Boutella, Djimon Hounsou, Ed Skrein, Michiel Huisman, Nubel Feliz Yan, Doona Bae, Ray Fisher, Staz Nair, Charlie Hunnam, Anthony Hopkins",
+      "genero": "Ciencia ficción. Fantástico. Acción. Aventuras",
       "description": "Cuando una colonia en los confines de la galaxia se ve amenazada.",
+      "sipnosis": "Cuando una pacífica colonia en los confines de la galaxia se ve amenazada por un poder tiránico, su mejor baza para sobrevivir es la misteriosa Kora. Esta reúne a un grupo dispuesto a luchar, formado por forasteros, insurgentes, campesinos y huérfanos de guerra de varios planetas unidos por una causa común: la redención y la venganza. Mientras la sombra de todo un reino se cierne sobre la más improbable de las lunas, se libra una batalla por el destino de una galaxia y se forja un nuevo ejército de héroes.",
+      "nacionalidad": "Estados Unidos",
       "stars": "3",
       "image": "https://m.media-amazon.com/images/I/91L4ztloxJL._AC_UF1000,1000_QL80_.jpg"
     },
     {
       "id": "13",
       "name": "E.T.",
+      "director": "Steven Spielberg",
+      "actores": "Henry Thomas, Robert MacNaughton, Drew Barrymore, Dee Wallace, Peter Coyote, K. C. Martel, Sean Frye, C. Thomas Howell, Erika Eleniak, Pat Welsh",
+      "genero": "Ciencia ficción. Fantástico. Drama",
       "description": "Un pequeño marciano de otro planeta queda abandonado en la Tierra cuando su nave se olvida de él.",
+      "sipnosis": "Un pequeño ser de otro planeta se queda abandonado en la Tierra cuando su nave, al emprender el regreso, se olvida de él. Está completamente solo y tiene miedo, pero se hará amigo de un niño, que lo esconde en su casa. El pequeño y sus hermanos intentan encontrar la forma de que el pequeño extraterrestre regrese a su planeta antes de que lo encuentren los científicos y la policía.",
+      "nacionalidad": "Estados Unidos",
       "stars": "5",
       "image": "https://m.media-amazon.com/images/I/814-9+LgNTL._AC_UF894,1000_QL80_.jpg"
     },
     {
       "id": "14",
       "name": "Terminator",
+      "director": "James Cameron",
+      "actores": "Arnold Schwarzenegger, Linda Hamilton, Michael Biehn",
+      "genero": "Ciencia ficción. Acción",
       "description": "En el año 2029 las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor.",
+      "sipnosis": "Los Ángeles, año 2029. Las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para acabar con la rebelión, las máquinas deciden enviar al pasado a un robot -Terminator- cuya misión será eliminar a Sarah Connor, la madre de John, e impedir así su nacimiento.",
+      "nacionalidad": "Estados Unidos",
       "stars": "4",
       "image": "https://m.media-amazon.com/images/I/9169qb1HV1L._AC_UF894,1000_QL80_.jpg"
     },
     {
       "id": "15",
       "name": "Water world",
+      "director": "Kevin Reynolds",
+      "actores": "Kevin Costner, Dennis Hopper, Jeanne Tripplehorn, Tina Majorino, Michael Jeter",
+      "genero": "Ciencia ficción. Aventuras. Acción ",
       "description": "En el futuro, los casquetes polares se han derretido y toda la Tierra está cubierta de agua salada.",
+      "sipnosis": "Los casquetes polares se han derretido y toda la Tierra está cubierta de agua marina. Los hombres sobreviven en plataformas flotantes y su principal ocupación es la búsqueda de agua dulce, el bien más preciado. Entre ellos circula una leyenda según la cual en algún lugar existe tierra firme. Un viajero errante y solitario que vive del trueque, llega un día a un atolón de chatarra y vende tierra a sus moradores, pero cuando éstos descubren que es un híbrido, mitad pez y mitad humano, lo condenan a muerte.",
+      "nacionalidad": "Estados Unidos",
       "stars": "3",
       "image": "https://es.web.img3.acsta.net/medias/nmedia/18/76/85/32/20151582.jpg"
     },
     {
-      "id": "",
+      "id": "16",
       "name": "Mistic River",
+      "director": "Clint Eastwood",
+      "actores": "Sean Penn, Kevin Bacon, Tim Robbins, Laurence Fishburne, Laura Linney, Marcia Gay Harden",
+      "genero": "Dramática",
       "description": "Asesinato misterioso",
+      "sipnosis": "Cuando Jimmy Markum (Sean Penn), Dave Boyle (Tim Robbins) y Sean Devine (Kevin Bacon) eran unos niños que crecían juntos en un peligroso barrio obrero de Boston, pasaban los días jugando al hockey en la calle. Pero, un día, a Dave le ocurrió algo que marcó para siempre su vida y la de sus amigos. Veinticinco años más tarde, otra tragedia los vuelve a unir: el asesinato de Katie (Emmy Rossum), la hija de 19 años de Jimmy. A Sean, que es policía, le asignan el caso; pero también tiene que estar muy pendiente de Jimmy porque, en su desesperación, está intentando tomarse la justicia por su mano.",
+      "nacionalidad": "Estados Unidos",
       "stars": "5",
       "image": "https://cdn.kobo.com/book-images/15bd2233-8b49-4de8-b6f9-615a3acd7aef/1200/1200/False/mystic-river-17.jpg"
     },
     {
-      "id": "3a22",
+      "id": "17",
       "name": "Capitán Fantastic",
+      "director": "Matt Ross",
+      "actores": "Viggo Mortensen, Frank Langella, Kathryn Hahn, Steve Zahn",
+      "genero": "Comedia dramática",
       "description": "Una familia viviendo en el bosque",
+      "sipnosis": "Ben (Viggo Mortensen) es un hombre que ha pasado diez años viviendo en los remotos bosques situados en el noroeste de los Estados Unidos criando a sus seis hijos, varios de ellos junto a su mujer. Aislados totalmente de la vida moderna, de las comodidades de las ciudades y de la sociedad de consumo, Ben es un padre devoto que ha inculcado en sus hijos una peculiar forma de pensar y vivir la vida. Sin embargo, una trágica noticia hace que la peculiar familia deba dejar temporalmente su modo de vida en la naturaleza y volver a la civilización.",
+      "nacionalidad": "Estados Unidos",
       "stars": "5",
       "image": "https://m.media-amazon.com/images/S/pv-target-images/0dca6d53dd6ac9f20dcd73e471b33e3d03e7391330fc7707a36ce01dc3e68e9b.jpg"
     }

@@ -1,38 +1,46 @@
-
-
-
-
 <body>
-<label for="titulo">Buscar por título:</label>
-<input type="text" placeholder="Título" [(ngModel)]="tituloABuscar"/>
+  <div class="input_container">
+    <div>
+      <label for="titulo">Buscar por título:</label>
+      <input type="text" placeholder="Título" [(ngModel)]="tituloABuscar" />
+    </div>
 
-<div>
-<input type="text" placeholder="name" [(ngModel)]="producto.name">
-<input type="text" placeholder="image" [(ngModel)]="producto.image">
-<input type="text" placeholder="description" [(ngModel)]="producto.description">
-<input type="text" placeholder="stars" [(ngModel)]="producto.stars">
-<button (click)="addProducto()" >Añadir nueva película</button>
-</div>
-
-<h2> {{producto.name}} </h2>
-  <img src="{{producto.image}}" alt="{{producto.name}}">
-  <p> {{producto.description}} </p>
-  <p> {{producto.stars}} </p>
-
-<div class="filmContainer" src="https://images.vexels.com/content/257066/preview/film-icons-seamless-pattern-14b273.png">
-@for (producto of productosList | filtroNombre:tituloABuscar; track $index) {
-  <div>
-    <h2> {{producto.name}} </h2>
-    <img src="{{producto.image}}" alt="{{producto.name}}"/>
-    <p> {{producto.description}} </p>
-    <!-- <h5> {{producto.stars}} </h5> -->
-    <h5>{{'⭐'.repeat(producto.stars)}}</h5>
-
-    <!-- CON EL NÚMERO -->
-    <!-- <h5>{{'⭐'.repeat(producto.stars - 1)}} {{producto.stars}}</h5> -->
-
-    <button routerLink="/productos/{{producto.id}}" >Ver más</button>
+    <div>
+      <input type="text" placeholder="Título" [(ngModel)]="producto.name" />
+      <input type="text" placeholder="Imagen" [(ngModel)]="producto.image" />
+      <input
+        type="text"
+        placeholder="Descripción"
+        [(ngModel)]="producto.description"
+      />
+      <input type="text" placeholder="Puntuacion" [(ngModel)]="producto.stars" />
+      <button (click)="addProducto()">Añadir nueva película</button>
+    </div>
   </div>
-  }
-</div>
+
+  <!-- <h2>{{ producto.name }}</h2>
+  <img src="{{ producto.image }}" alt="{{ producto.name }}" />
+  <p>{{ producto.description }}</p>
+  <p>{{ producto.stars }}</p> -->
+
+  <div
+    class="filmContainer"
+    src="https://images.vexels.com/content/257066/preview/film-icons-seamless-pattern-14b273.png"
+  >
+    @for (producto of productosList | filtroNombre:tituloABuscar; track $index)
+    {
+    <div>
+      <h2>{{ producto.name }}</h2>
+      <img src="{{ producto.image }}" alt="{{ producto.name }}" />
+      <p>{{ producto.description }}</p>
+      <!-- <h5> {{producto.stars}} </h5> -->
+      <h5>{{ "⭐".repeat(producto.stars) }}</h5>
+
+      <!-- CON EL NÚMERO -->
+      <!-- <h5>{{'⭐'.repeat(producto.stars - 1)}} {{producto.stars}}</h5> -->
+
+      <button routerLink="/productos/{{ producto.id }}">Ver más</button>
+    </div>
+    }
+  </div>
 </body>
