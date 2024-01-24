@@ -1,22 +1,58 @@
-<div>
-  <h2> {{producto.name}} </h2>
-  <img src="{{producto.image}}" alt="{{producto.name}}">
-  <p> {{producto.description}} </p>
-  <p>id: {{producto.id}} </p>
-  <h5> {{producto.stars}} </h5>
-  <button routerLink="/productos/" >Volver atrás</button>
+<div class="container">
+  <img src="{{ producto.image }}" alt="{{ producto.name }}" />
+  <div class="text_container">
+    <h2>{{ producto.name }}</h2>
+    <div>
+      <h4>Director:</h4>
+      <p>{{ producto.director }}.</p>
+    </div>
+    <div>
+      <h4>Actores:</h4>
+      <p>{{ producto.actores }}.</p>
+    </div>
+    <div>
+      <h4>Género:</h4>
+      <p>{{ producto.genero }}.</p>
+    </div>
+    <div>
+      <h4>Puntuación:</h4>
+      <p>{{ "⭐".repeat(producto.stars) }}</p>
+    </div>
+    <div>
+      <h4>Sinopsis:</h4>
+      <p>{{ producto.sinopsis }}</p>
+    </div>
+    <!-- <p> {{producto.description}} </p>
+  <h5> {{producto.stars}} </h5> -->
+    <button routerLink="/productos/">Volver atrás</button>
+  </div>
 </div>
 
-<input type="text" placeholder="name" [(ngModel)]="producto.name">
-<input type="text" placeholder="image" [(ngModel)]="producto.image">
-<input type="text" placeholder="description" [(ngModel)]="producto.description">
-<input type="text" placeholder="stars" [(ngModel)]="producto.stars">
+<div class="input_container">
+  <div class="input_text_container">
+    <div class="columnas">
+      <div class="columna_1">
+        <h5>Imagen<input type="text" placeholder="image" [(ngModel)]="producto.image"/></h5>
+        <h5>Título<input type="text" placeholder="name" [(ngModel)]="producto.name" /></h5>
+        <h5>Director<input type="text" placeholder="director" [(ngModel)]="producto.director"/></h5>
+      </div>
+      <div class="columna_2">
+        <h5>Actores<input type="text" placeholder="actores" [(ngModel)]="producto.actores"/></h5>
+        <h5>Género<input type="text" placeholder="Género" [(ngModel)]="producto.genero"/></h5>
+        <h5>Descripción<input type="text" placeholder="description" [(ngModel)]="producto.description"/></h5>
+      </div>
+  </div>
+  <div class="fila"> 
+    <h5>Sinopsis</h5>
+      <input type="text" placeholder="sinopsis" [(ngModel)]="producto.sinopsis"/>
+  </div>
+  <div class="fila_2"> 
+    <h5>Puntuación<input type="text" placeholder="stars" [(ngModel)]="producto.stars"/></h5>
+  </div>
+  </div>
 
-<button (click)="actualizarProducto()">Actualizar película</button>
-
-<button (click)="deleteProducto()">Eliminar película</button>
-
-
-
-
-
+  <div class="botones">
+    <button (click)="actualizarProducto()">Actualizar película</button>
+    <button (click)="deleteProducto()">Eliminar película</button>
+  </div>
+</div>
