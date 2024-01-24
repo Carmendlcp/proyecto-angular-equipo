@@ -1,25 +1,128 @@
-div {
-  background-color: #fce3c5;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  margin: 20px;
+* {
+  font-family: "Courier New", Courier, monospace;
 }
 
-h2 {
-  color: #7f78d2;
+.container {
+  background-color: rgb(238, 238, 238);
+  border-color: grey;
+  border: solid 1px;
+  box-shadow: 10px 10px 8px #888888;
+  display: flex;
+  margin:40px;
+  margin-bottom: 0px;
+  padding: 20px;
+
+}
+
+.input_container {
+  // border: solid 3px red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // align-items: stretch;
+  margin: 0px;
+}
+
+.input_text_container {
+  // border: solid 3px rgb(47, 0, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: space-around;
+  margin: 0px;
+  width: 100%;
+}
+
+.columnas {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+}
+
+.columna_1{ 
+gap: 0px;
+width: 40%;
+}
+
+.columna_2 {
+  gap: 0px;
+  width: 40%;
+}
+
+.fila {
+  // border: solid 3px rgb(8, 255, 8);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 91%;
+  h5 {
+    margin: 0;
+  }
+  input {
+    width: 100%;
+    // margin-left: 25px;
+  }
+}
+
+.fila_2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 10px;
-  border-radius: 5px;
+  max-width: 402px;
+  max-height: 622px;
+  padding-right: 0px;
+  border-color: grey;
+  border: solid 1px;
+  box-shadow: 10px 10px 8px #888888;
 }
 
-p {
-  color: #555;
+.text_container {
+  padding-left: 50px;
+  border: solid 0px;
+}
+div {
+  display: flex;
+  display: block;
+}
+
+// ESTRELLAS
+
+.filmContainer div .star-container {
+  display: flex;
+}
+
+.filmContainer div .star {
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+  position: relative;
+}
+
+.filmContainer div .star::before {
+  content: "\2605"; /* Código de estrella Unicode */
+  color: #ffd700; /* Color de estrellas amarillas */
+  font-size: 18px; /* Tamaño de la estrella */
+  border: 1px solid #ffd700; /* Borde de la estrella */
+  padding: 2px; /* Espacio interno en la estrella */
+  border-radius: 50%; /* Borde redondeado para que parezca más una estrella */
+}
+
+.filmContainer div .star.full::before {
+  color: #ffd700; /* Color de estrella completa */
+  border-color: #ffd700; /* Borde de estrella completa */
+}
+
+//////////////////////////////////////////////////////////////////
+
+.input_container {
+  margin: 40px;
 }
 
 input {
@@ -28,19 +131,23 @@ input {
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
+  margin-right: 0px;
 }
 
 button {
-  background-color: #ffb6c1;
+  background-color: #b4b4b4;
   color: #fff;
   padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   margin: 10px;
+  margin-left: 0px;
   transition: background-color 0.3s;
+  box-shadow: 5px 5px 8px #888888;
+  font-weight: 900;
 }
 
 button:hover {
-  background-color: #ff87a2;
+  background-color: #606060;
 }
